@@ -1,0 +1,9 @@
+footer .nav-link {
+    color: #ddd;
+}
+footer .nav-link:hover {
+    color: #bbb;
+}
+footer p {
+    color: #ccc;
+}

@@ -1,0 +1,70 @@
+
+    /* Main container styling */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #222;
+        color: white;
+        position: relative;
+      }
+  
+      /* Smaller Slider with Bottom-Right Alignment */
+      .carousel-container {
+        position: absolute;
+        bottom: 100px;  /* Adjust distance from the bottom */
+        right: 50px;   /* Adjust distance from the right */
+        width: 20%;
+        height: 20%;
+        background-color: #333; /* Optional: Set background color to match your design */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+  
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+
+      /* Arrow Button Styling */
+    .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+  
+      .carousel-arrow:hover {
+        background-color: rgba(255, 255, 255, 0.8);
+      }
+  
+      /* Left arrow positioning */
+      .carousel-arrow-left {
+        left: -20px;
+      }
+  
+      /* Right arrow positioning */
+      .carousel-arrow-right {
+        right: -20px;
+      }
+  
+      /* Optional: Main background styling */
+      .main-container {
+        background-image: url('../assets/home4.jpeg'); /* Replace with your own background image */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
